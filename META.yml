@@ -1,0 +1,31 @@
+---
+abstract: ~
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.96
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBIx-Patcher
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Carp: 1.11
+  DBIx::Class: 0.08124
+  Data::Dump: 1.19
+  DateTime: 0.66
+  Digest::MD5: 2.39
+  FindBin::libs: 1.5100
+  Getopt::Long: 2.38
+  IO::File: 1.14
+  Path::Class: 0.21
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
