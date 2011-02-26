@@ -2,7 +2,6 @@ Changes
 LICENSE
 MANIFEST
 META.yml
-Makefile.PL
 README
 TODO
 bin/patcher

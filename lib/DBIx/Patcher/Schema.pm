@@ -1,6 +1,6 @@
 package DBIx::Patcher::Schema;
 BEGIN {
-  $DBIx::Patcher::Schema::VERSION = '0.0.2';
+  $DBIx::Patcher::Schema::VERSION = '0.02';
 }
 BEGIN {
   $DBIx::Patcher::Schema::DIST = 'DBIx-Patcher';
