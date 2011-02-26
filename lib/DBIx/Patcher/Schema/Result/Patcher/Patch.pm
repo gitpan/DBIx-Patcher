@@ -1,4 +1,10 @@
 package DBIx::Patcher::Schema::Result::Patcher::Patch;
+BEGIN {
+  $DBIx::Patcher::Schema::Result::Patcher::Patch::VERSION = '0.0.2';
+}
+BEGIN {
+  $DBIx::Patcher::Schema::Result::Patcher::Patch::DIST = 'DBIx-Patcher';
+}
 
 # Created by DBIx::Class::Schema::Loader
 # DO NOT MODIFY THE FIRST PART OF THIS FILE
@@ -13,6 +19,10 @@ __PACKAGE__->load_components("InflateColumn::DateTime");
 =head1 NAME
 
 DBIx::Patcher::Schema::Result::Patcher::Patch
+
+=head1 VERSION
+
+version 0.0.2
 
 =cut
 

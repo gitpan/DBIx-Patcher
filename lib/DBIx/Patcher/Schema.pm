@@ -1,4 +1,10 @@
 package DBIx::Patcher::Schema;
+BEGIN {
+  $DBIx::Patcher::Schema::VERSION = '0.0.2';
+}
+BEGIN {
+  $DBIx::Patcher::Schema::DIST = 'DBIx-Patcher';
+}
 
 # Created by DBIx::Class::Schema::Loader
 # DO NOT MODIFY THE FIRST PART OF THIS FILE

@@ -1,4 +1,10 @@
 package DBIx::Patcher::Schema::ResultSet::Patcher::Run;
+BEGIN {
+  $DBIx::Patcher::Schema::ResultSet::Patcher::Run::VERSION = '0.0.2';
+}
+BEGIN {
+  $DBIx::Patcher::Schema::ResultSet::Patcher::Run::DIST = 'DBIx-Patcher';
+}
 # vim: ts=8 sts=4 et sw=4 sr sta
 use strict;
 use warnings;
