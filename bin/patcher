@@ -14,6 +14,10 @@ __END__
 
 =head1 SYNOPSIS
 
+=head1 VERSION
+
+version 0.03
+
 patcher [-h localhost] [-u www] [-d my_db] [-a] [--retry] [-c] patch_dir
 
 =head1 OPTIONS

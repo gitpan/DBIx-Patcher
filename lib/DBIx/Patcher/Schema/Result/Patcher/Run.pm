@@ -1,6 +1,6 @@
 package DBIx::Patcher::Schema::Result::Patcher::Run;
 BEGIN {
-  $DBIx::Patcher::Schema::Result::Patcher::Run::VERSION = '0.02';
+  $DBIx::Patcher::Schema::Result::Patcher::Run::VERSION = '0.03';
 }
 BEGIN {
   $DBIx::Patcher::Schema::Result::Patcher::Run::DIST = 'DBIx-Patcher';
@@ -22,7 +22,7 @@ DBIx::Patcher::Schema::Result::Patcher::Run
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =cut
 
