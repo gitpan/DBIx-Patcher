@@ -1,6 +1,6 @@
 package DBIx::Patcher;
 BEGIN {
-  $DBIx::Patcher::VERSION = '0.03';
+  $DBIx::Patcher::VERSION = '0.03.01';
 }
 BEGIN {
   $DBIx::Patcher::DIST = 'DBIx-Patcher';
@@ -25,7 +25,7 @@ DBIx::Patcher - store history of patches applied in database schema
 
 =head1 VERSION
 
-version 0.03
+version 0.03.01
 
 =cut
 
@@ -68,7 +68,11 @@ sub run {
         'verbose'   => \$opts->{verbose},
         'debug'     => \$opts->{debug},
 #        'dry'       => \$opts->{dry},
+        'version'     => \$opts->{version},
+        
     );
+
+    _version() if ($opts->{version});
 
     # FIXME: do we need to use a plugin?
     # merge in defaults into opt and share plugin
@@ -114,6 +118,10 @@ sub run {
     print "file: ". scalar @files ."\n" if ($opts->{debug});
 }
 
+sub _version {
+    print "  ". __PACKAGE__ ." $DBIx::Patcher::VERSION Jason Tang\n\n";
+    exit;
+}
 
 sub _patch_it {
     my($run,$file) = @_;

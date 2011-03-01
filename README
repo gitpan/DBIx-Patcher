@@ -2,7 +2,7 @@ NAME
     DBIx::Patcher - store history of patches applied in database schema
 
 VERSION
-    version 0.03
+    version 0.03.01
 
 SYNOPSIS
         # add patches already run on an existing db
