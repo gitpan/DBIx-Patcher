@@ -1,6 +1,6 @@
 package DBIx::Patcher;
 BEGIN {
-  $DBIx::Patcher::VERSION = '0.03.01';
+  $DBIx::Patcher::VERSION = '0.04';
 }
 BEGIN {
   $DBIx::Patcher::DIST = 'DBIx-Patcher';
@@ -25,7 +25,7 @@ DBIx::Patcher - store history of patches applied in database schema
 
 =head1 VERSION
 
-version 0.03.01
+version 0.04
 
 =cut
 
